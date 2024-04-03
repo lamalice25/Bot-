@@ -6,7 +6,7 @@ running = True
 enter  = input('Enter si vous voulais - , + , x : ')
 
 while running:
-    if 'x' in enter:
+    if '*' in enter:
         y1_multiplier = int(input('Entrer un chiffre le premier chiffre a multiplier : '))
         y2_multiplier = int(input('Enter le deuxième chiffre a multiplier : '))
 
@@ -30,6 +30,8 @@ while running:
         x_soustraire = y1_soustraire-y2_soustraire
 
         print(x_soustraire)
+    
+
 
 
 
